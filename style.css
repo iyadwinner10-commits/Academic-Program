@@ -201,7 +201,7 @@ footer {
 
 .pdfcards{
     display:grid;
-     grid-template-columns: 2fr;
+     grid-template-columns: 1fr 2fr;
   gap: 10px;
 }
 
@@ -219,7 +219,7 @@ footer {
   margin: 20px;
 }
 
-.video-box iframe {
+.video-iframe {
   width: 100%;
   height: 100%;
   border-radius: 10px;
