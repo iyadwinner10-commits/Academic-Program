@@ -201,13 +201,13 @@ footer {
 
 .pdfcards{
     display:grid;
-     grid-template-columns: 1fr;
+     grid-template-columns: 2fr;
   gap: 10px;
 }
 
 @media (min-width: 768px) {
   .pdfcards {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 2fr);
   }
 }
 
@@ -216,9 +216,14 @@ footer {
   width: 90%;
   max-width: 800px;
   aspect-ratio: 16 / 9;
-  margin:20px;
+  margin: 20px;
 }
 
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
 .video-cards{
     display:grid;
      grid-template-columns: 1fr;
