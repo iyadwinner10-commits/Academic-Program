@@ -178,24 +178,24 @@ footer {
 
 .pdf-card {
   display: block;
-  width: clamp(80px, 11vw, 220px);
+  width: clamp(40px, 11vw, 220px);
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 12px;
   text-decoration: none;
   color: black;
   margin: 10px auto;
-  font-size: clamp(8px, 1vw, 20px);
+  font-size: clamp(4px, 1vw, 20px);
 }
 
 .pdf-thumb {
-  height: clamp(40px, 6vw, 140px);
+  height: clamp(20px, 6vw, 140px);
   background: #e74c3c;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(14px, 1.5vw, 32px);
+  font-size: clamp(7px, 1.5vw, 32px);
   border-radius: 8px;
   margin-bottom: 12px;
 }
