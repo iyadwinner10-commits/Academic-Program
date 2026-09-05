@@ -9,6 +9,12 @@
 			 box-sizing: border-box;
 			 scroll-behavior: smooth;
 			 }
+       .hr1{
+         border:none;
+        height: 5px;
+        background-color: rgb(13, 93, 122);
+       }
+      
        .header1 {
         border:none;
         height: 20px;
@@ -213,8 +219,7 @@ footer {
 }
 
 .video-box {
-  position: relative;
-  width: 90%;
+  width: 80%;
   max-width: 800px;
   aspect-ratio: 16 / 9;
   margin: 20px;
@@ -229,10 +234,34 @@ footer {
     display:grid;
      grid-template-columns: 1fr;
   gap: 10px;
+  justify-content: space-around;
 }
 
 @media (min-width: 768px) {
   .video-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.docx-thumb {
+  height: clamp(70px, 10vw, 140px);
+  background:#2b579a ;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(12px, 2vw, 32px);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.pptx-thumb {
+  height: clamp(70px, 10vw, 140px);
+  background: #ED6C47;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(12px, 2vw, 32px);
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
